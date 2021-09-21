@@ -1,0 +1,68 @@
+/* Colors
+#323232 (black) */
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #e4e8f6;
+}
+
+.container h3 {
+  color: white;
+}
+
+.divider {
+  background: gray;
+  width: 100%;
+  height: 1px;
+}
+
+.inputContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.formContainer form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formContainer form input {
+  width: 40%;
+  height: 66px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.formContainer form button {
+  width: 50px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 16px;
+  background-color: #323232;
+  color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
