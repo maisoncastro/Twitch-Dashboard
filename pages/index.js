@@ -19,14 +19,14 @@ const Home = () => {
       console.log('Input: ', value)
 
       // Call Twitch Stream API
-      const path = `https//${window.location.hostname}`
+      const path = `https://${window.location.hostname}`
       
       const response = await fetch(`${path}/api/twitch`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ date: value })
+        body: JSON.stringify({ data: value })
       })
 
       const json = await response.json()
